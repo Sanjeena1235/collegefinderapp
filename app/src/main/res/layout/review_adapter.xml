@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:background="@color/white">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/user_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/userlogin"
+        app:civ_shadow="false"
+        app:civ_border_color="@color/view_line"
+        app:civ_border_width="3dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/user_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="15dp"
+            android:text="sanjeena"
+            android:textColor="@color/green"
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:alpha="0.6"
+            android:textSize="15dp"
+            android:text="its nice"
+            android:lineSpacingExtra="1.5sp"
+            android:id="@+id/review_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

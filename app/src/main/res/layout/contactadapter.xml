@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/txt_tel_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TELEPHONE NUMBER"
+        android:typeface="normal" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/tel_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:typeface="normal" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/txt_postal_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POSTAL ADDRESS"
+        android:typeface="normal" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/postal_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:typeface="normal" />
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/txt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL"
+        android:typeface="normal" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:typeface="normal" />
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/txt_fax_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAX NUMBER"
+        android:typeface="normal" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/fax_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:typeface="normal" />
+</LinearLayout>
